@@ -10,7 +10,11 @@
   }
 
   &__card {
-    padding: 30px 14px 14px;
+    padding: 12px 14px 14px;
     margin: 0 24px;
+  }
+
+  &__card:hover {
+    box-shadow: 0 1px 15px #f3f3f3;
   }
 }

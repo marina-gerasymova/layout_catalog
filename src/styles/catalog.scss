@@ -1,20 +1,23 @@
 @import "./variables.scss";
 
 .catalog {
-  &__row {
-    display: flex;
-    justify-content: center;
 
-    margin: 50px 0;
-    padding: 0 40px;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-auto-rows: 403px;
+  justify-content: center;
+
+  column-gap: 48px ;
+  row-gap: 50px;
+
+  margin-top: 50px;
 
   &__card {
+    margin: 0 auto;
     padding: 12px 14px 14px;
-    margin: 0 24px;
   }
 
   &__card:hover {
-    box-shadow: 0 1px 15px #f3f3f3;
+    box-shadow: 0 1px 15px $card-border-color;
   }
 }

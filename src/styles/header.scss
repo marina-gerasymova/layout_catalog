@@ -1,9 +1,9 @@
 @import "./variables.scss";
 
 .header {
-  padding: 0 50px;
   display: flex;
   justify-content: space-between;
+  padding: 0 50px;
   font-weight: $font-weight-label;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 

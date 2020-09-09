@@ -3,6 +3,8 @@ $size-icon: 40px;
 $accent-color: #00acdc;
 $card-border-color: #f3f3f3;
 $white-color: white;
+$min-width-catalog: 1024px;
+$max-width-catalog: 1200px;
 
 @mixin font-small-thin {
   font-size: 11px;
